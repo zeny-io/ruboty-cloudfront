@@ -13,6 +13,8 @@ Gem::Specification.new do |spec|
   spec.description   = 'Provides cloud front operation to ruboty'
   spec.homepage      = 'https://github.com/zeny-io/ruboty-cloudfront'
 
+  spec.license       = 'MIT'
+
   spec.files = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
